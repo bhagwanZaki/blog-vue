@@ -1,0 +1,14 @@
+.blogDiv {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #eee;
+    gap: 10px;
+  }
+  
+  .blogImg {
+    width: 13%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }

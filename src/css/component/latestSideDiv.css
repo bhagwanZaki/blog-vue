@@ -1,0 +1,34 @@
+.latestDiv {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.latestDiv:hover .lsdtitle {
+  transition: 200ms ease-in;
+  text-decoration: underline;
+}
+
+.lsimg {
+  /* height: 250px; */
+  width: 30%;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+.lsd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lsdwritten,
+.lsddate {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.lsdtitle {
+  font-weight: 400;
+  font-size: 2rem;
+  transition: 200ms ease-in;
+}

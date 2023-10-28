@@ -1,0 +1,28 @@
+.pageNotFound {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imgnotfound {
+    width: 40%;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .lostLink {
+    font-size: 3rem;
+  }
+  
+  .guidelink {
+    width: max-content;
+    background: #333;
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+  }

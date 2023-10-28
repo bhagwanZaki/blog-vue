@@ -1,0 +1,35 @@
+.nav {
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navTitle {
+  font-family: "Abril Fatface", cursive;
+  font-size: 3rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profile{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.loginBtn{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid #333;
+  transition: 200ms ease-in;
+}
+
+.loginBtn:hover{
+  background-color: #ffff;
+  color: #333;
+}

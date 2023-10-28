@@ -1,0 +1,33 @@
+.popularDiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: space-between;
+    border-right: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    text-decoration: none;
+  }
+  
+  .popularDiv:hover .ptitle {
+    text-decoration: underline;
+    transition: 200ms ease-in;
+  }
+  
+  .popularDiv:nth-child(3n) {
+    border-right: none;
+  }
+  .popularDiv:nth-last-child(-n + 3) {
+    border-bottom: none;
+  }
+  
+  .pwritten,
+  .pdate {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .ptitle {
+    font-weight: 400;
+    font-size: 2rem;
+  }
